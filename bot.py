@@ -142,7 +142,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 # Botu çalıştırma
 if __name__ == "__main__":
-    app = ApplicationBuilder().token("7730666637:AAFpyriaQ2WRkdwaed3g55cd0s_uTUqdkJQ").build()  # BOT_TOKEN'ı botunuzun token'ı ile değiştirin
+    app = ApplicationBuilder().token("YOUR_TELEGRAM_TOKEN").build()  # BOT_TOKEN'ı botunuzun token'ı ile değiştirin
 
     # Handler'lar ekliyoruz
     app.add_handler(CommandHandler("get_qr", get_qr))
